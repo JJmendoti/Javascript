@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let variable =3;
+        // let variable2 =5;
+        // let total =variable+variable2;
+
+        //  console.log(total)
+        //  console.log("total: "+ total);
+        // alert ("El total es: " +total);
+
+        // let username =prompt("Ingrese el usuario");
+        // console.log("username " + username);
+        // alert ("username " + username);
+
+        //         let number1 = parseFloat(prompt("Ingrese el numero 1"));
+        //         let number2 = parseFloat( prompt("Ingrese el numero 2"));
+        //         let number3 = parseFloat( prompt("Ingrese el numero 3"));
+
+        //         let total = number1 + number2 + number3;
+        //         alert("El total es: " + total);
+
+        // if(number1 > number2 && Number1 > number3){
+
+        //     alert("Number 1 es mayor");
+        // } else{
+
+        //     if(number2>number3){
+        //         alert("Number 2 es mayor");
+
+        //     }else
+        //     {
+        //         alert("El number 3 es mayor");
+        //     }
+
+
+        // }
+
+        // let number1 = parseFloat(prompt("Ingrese el numero 1"));
+        // let number2 = parseFloat(prompt("Ingrese el numero 2"));
+        // let number3 = parseFloat(prompt("Ingrese el numero 3"));
+        // let operacion = prompt("Ingrese operacion +, -, *, /");
+        // let total = 0;
+        // let numberTimes = parseInt(prompt("Ingrese la cantidad numeros a ingresar"));
+        // for (let i = 1; i < numberTimes; i++) {
+        //     let Number = parseFloat(prompt("Ingrese el numero" + i));
+        //     total = total + Number;
+
+        // }
+        // alert("Total " + total + "promedio " + total / numberTimes);
+
+        // let count =0;
+        //         while(count < numberTimes){
+        //             let Number = parseFloat(prompt("Ingrese el numero" + i));
+        //             total+=Number;
+        //             count++;
+        //         }
+
+
+        /// ejemplo de while infinito con break;
+        /// sirve para que romper un ciclo infinito
+//corregir
+        // let count = 0;
+        // let total=0;
+        // while (true) {
+        //     let Number = parseFloat(prompt("Ingrese el numero " + count+1));
+        //     total += Number;
+        //     count++;
+           
+        //         if (count == 3) {
+        //             break;
+        //         }
+        //     }
+
+    
+
+
+
+        //Estructura for
+        // se divide en tres //inicio/alcance // e incremento
+        // declare total como decimal!
+
+
+        //  switch () selector 
+        // switch (operacion) {
+        //     case '+': operacion
+        //         total = number1 + number2 + number3;
+        //         alert("Total: " + total);
+
+        //         break;
+
+        //     case '-': operacion
+        //         total = number1 - number2 - number3;
+        //         alert("Total: " + total);
+
+        //         break;
+        //     case '*': operacion
+        //         total = number1 * number2 * number3;
+        //         alert("Total: " + total);
+
+        //         break;
+
+        //     case '/': operacion
+        //         total = number1 / number2 / number3;
+
+        //         alert("Total: " + total);
+
+        //         break;
+
+        // }
+
+
+
+// while(true)
+// // === compara el tipo y el dato
+// {
+//     let Opcion = prompt("Ingrese Suma - Resta");
+// if(Opcion  == "Suma" || Opcion=="Resta")
+// {
+
+// break;
+
+// }else{
+//     alert("Datos incorrectos");
+// }
+// }
+
+// para verificar si no es numero
+
+let number1=0;
+let total=0;
+for(let i=0; i<2; i++)
+{
+    while(true){
+        number=prompt("Ingrese el numero: " + i)
+        if(!isNaN(number)){
+            break;
+        }else
+        {
+            alert("El dato debe ser un númerico");
+            alert("Por favor Ingresa el dato correcto");
+        }
+    }
+    total+=number;
+}
+
+let dato =prompt("Ingrese dato")
+if(!isNaN(dato)){
+
+alert ("Tipo de dato Número " + " Hasta pronto ");
+
+}else{
+    alert("Tipo de dato String " + " Hasta pronto ");
+}
+
+
+
+
+
+    </script>
+</body>
+
+</html>
